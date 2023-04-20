@@ -1,22 +1,24 @@
 import React from 'react'
 import Image from 'next/image'
+import style from '../styles/Home.module.css'
 
 const Footer = () => {
   return (
-    <div>
-  
+    <div className={style.footer}>
+      <div className={style.gridContainer}>
       {
         ['email', 'facebook', 'phone'].map(path =>{
           return(
-            <div key={path}>
-              <Image src={`/${path}.svg`}alt='socialMedia' width='50' height='50'/>        
+            <div key={path} className={style.img}>
+              <Image src={`/${path}.svg`}alt='socialMedia' width='35' height='35'/>        
             </div>
           )
         })
       }
+      </div>
 
-      <div className='copyright'>
-        Copyright 2021 Olha Niemiets
+      <div className={style.copyright}>
+        Copyright 2023 Olha Niemiets
       </div>
     </div>
   )
