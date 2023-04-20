@@ -35,6 +35,39 @@
     align-items: center;
     gap: 25px;
 }
+
+/*---------- # Article ----------*/
+.contentContainer{
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.contentImg{
+    width: 400px; 
+    height: 350px; 
+    border-radius: 50%; 
+    background-color: #f9f9f9;
+    
+}
+.contentText{
+    display: flex;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    flex-direction: column;
+ 
+}
+.text {
+    font-size: 17px; 
+    line-height: 1.5;
+    color: black; 
+    padding: 10px; 
+    width: 100%; 
+    height: fit-content; 
+}
+
+/*---------- # Footer ----------*/
 .footer {
     display: flex;
     justify-content: space-between;
@@ -48,49 +81,13 @@
     justify-content: space-between;
     align-items: center;
     min-height: 40px;
-    width: 13%;
+    width: 15%;
     padding-left: 10%;
 }
-
 .copyright{
     text-align: center;
-    font-size: 16px;
+    font-size: 17px;
     color: black;
-    padding-right: 40%;
+    padding-right: 35%;
 }
 
-  /* Media icon styles 
-  footer .media-icons {
-    display: flex;
-    align-items: center;
-  }
-
-  .gridContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 40px;
-    width: 25%;
-    flex-wrap: wrap;
-    padding-top: 25px;
-    padding-left: 20px;
-}
-  
-  footer .media-icons a {
-    display: block;
-    margin-right: 10px;
-  }
-  
-  footer .media-icons img {
-    height: 30px;
-    width: auto;
-  }
-  */
-  /* Copyright text styles 
-  footer .copyright {
-    text-align: center;
-    font-size: 14px;
-    color: #999;
-  }
-  */
